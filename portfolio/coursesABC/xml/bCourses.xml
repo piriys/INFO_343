@@ -1,0 +1,293 @@
+<?xml version="1.0" standalone="yes"?>
+<curricula>
+<curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20A</uri>
+  <name>B A</name>
+  <fullname>BUSINESS ADMINISTRATION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20CMU</uri>
+  <name>B CMU</name>
+  <fullname>BUSINESS COMMUNICATION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20CON</uri>
+  <name>B CON</name>
+  <fullname>BUILDING CONSTRUCTION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CM</department>
+  <department-fullname>CONSTRUCTION MANAGEMENT</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20E</uri>
+  <name>B E</name>
+  <fullname>BUILT ENVIRONMENT</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B E</department>
+  <department-fullname>BUILT ENVIRONMENT</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20ECON</uri>
+  <name>B ECON</name>
+  <fullname>BUSINESS ECONOMICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20LAW</uri>
+  <name>B LAW</name>
+  <fullname>Business Law</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20POL</uri>
+  <name>B POL</name>
+  <fullname>BUSINESS POLICY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20STAT</uri>
+  <name>B STAT</name>
+  <fullname>BUSINESS STATISTICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/B%20STR</uri>
+  <name>B STR</name>
+  <fullname>BIOLOGICAL STRUCTURE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B STR</department>
+  <department-fullname>BIOLOGICAL STRUCTURE</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BA%20RM</uri>
+  <name>BA RM</name>
+  <fullname>BUS ADMIN RESEARCH METHODS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BALTIC</uri>
+  <name>BALTIC</name>
+  <fullname>BALTIC STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>SCAND</department>
+  <department-fullname>SCANDINAVIAN STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BCS</uri>
+  <name>BCS</name>
+  <fullname>BOSNIAN-CROATIAN-SERBIAN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>SLAVIC</department>
+  <department-fullname>SLAVIC LANGUAGES &amp; LITERATURES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BEH%20NR</uri>
+  <name>BEH NR</name>
+  <fullname>BEHAVORIAL NEUROSCIENCE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B NEU</department>
+  <department-fullname>BEHAVIORAL NEUROSCIENCE</department-fullname>
+  <college>INDGP</college>
+  <college-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BENG</uri>
+  <name>BENG</name>
+  <fullname>BENGALI</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASIAN</department>
+  <department-fullname>ASIAN LANGUAGES &amp; LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BG%26S</uri>
+  <name>BG&amp;S</name>
+  <fullname>BUSINESS GOVERNMENT &amp; SOCIETY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BI%20HS</uri>
+  <name>BI HS</name>
+  <fullname>BIOMEDICAL HISTORY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>MHE</department>
+  <department-fullname>MEDICAL HISTORY &amp; ETHICS</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIO%20A</uri>
+  <name>BIO A</name>
+  <fullname>BIOCULTURAL ANTHROPOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ANTH</department>
+  <department-fullname>ANTHROPOLOGY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIOC</uri>
+  <name>BIOC</name>
+  <fullname>BIOCHEMISTRY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BIOC</department>
+  <department-fullname>BIOCHEMISTRY</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIOCHM</uri>
+  <name>BIOCHM</name>
+  <fullname>BIO CHEMISTRY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CHEM</department>
+  <department-fullname>CHEMISTRY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIOEN</uri>
+  <name>BIOEN</name>
+  <fullname>BIOENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BIOEN</department>
+  <department-fullname>BIOENGINEERING</department-fullname>
+  <college>INTCOL</college>
+  <college-fullname>INTERSCHOOL OR INTERCOLLEGE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIOL</uri>
+  <name>BIOL</name>
+  <fullname>BIOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BIOL</department>
+  <department-fullname>BIOLOGY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BIOST</uri>
+  <name>BIOST</name>
+  <fullname>BIOSTATISTICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BIOST</department>
+  <department-fullname>BIOSTATISTICS</department-fullname>
+  <college>PH&amp;CM</college>
+  <college-fullname>SCHOOL OF PUBLIC HEALTH &amp; COMMUNITY MED</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BLK%20S</uri>
+  <name>BLK S</name>
+  <fullname>BLACK STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AES</department>
+  <department-fullname>AMERICAN ETHNIC STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BMATH</uri>
+  <name>BMATH</name>
+  <fullname>BIOMATHEMATICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>INDGP</department>
+  <department-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</department-fullname>
+  <college>INDGP</college>
+  <college-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BMSD</uri>
+  <name>BMSD</name>
+  <fullname>BIOMOLECULAR STRUCTURE AND DESIGN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BMSD</department>
+  <department-fullname>BIOMOLECULAR STRUCTURE AND DESIGN</department-fullname>
+  <college>INDGP</college>
+  <college-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BOTANY</uri>
+  <name>BOTANY</name>
+  <fullname>BOTANY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>BOTANY</department>
+  <department-fullname>BOTANY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BSTAT</uri>
+  <name>BSTAT</name>
+  <fullname>Business Statistics &amp; Operation Research</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BT%26A</uri>
+  <name>BT&amp;A</name>
+  <fullname>Building Technology and Administration</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CM</department>
+  <department-fullname>CONSTRUCTION MANAGEMENT</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/BULGR</uri>
+  <name>BULGR</name>
+  <fullname>BULGARIAN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>SLAVIC</department>
+  <department-fullname>SLAVIC LANGUAGES &amp; LITERATURES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ </curricula>

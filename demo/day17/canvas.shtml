@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Fun w/ the canvas!</title>
+		<script type="text/javascript">
+		
+		function drawMe() {
+			var myCurveCanvas = document.getElementById("curveCanvas");
+			var myCurveContext = myCurveCanvas.getContext("2d");
+			
+			var canvas = document.getElementById("gradient");
+			if (canvas.getContext) {
+				var ctx = canvas.getContext("2d");
+				
+				var lineargradient = ctx.createLinearGradient(0,0,150,150);  
+				lineargradient.addColorStop(0,'white');  
+				lineargradient.addColorStop(1,'black');  
+				
+				myCurveContext.lineWidth = 5;
+					 
+				myCurveContext.beginPath();
+				myCurveContext.strokeStyle = "red";
+				myCurveContext.moveTo(75, 25);
+				myCurveContext.quadraticCurveTo(25,25,25,62.5);
+				myCurveContext.quadraticCurveTo(25,100,50,100);
+				myCurveContext.quadraticCurveTo(50,120,30,125);
+				myCurveContext.quadraticCurveTo(60,120,65,100);
+				myCurveContext.quadraticCurveTo(125,100,125,62.5);
+				myCurveContext.quadraticCurveTo(125,25,75,25);
+				myCurveContext.stroke();
+				   
+				/*myCurveContext.beginPath();
+				myCurveContext.strokeStyle = "blue";
+				myCurveContext.bezierCurveTo(100, 20, 30, 120, 10, 10);
+				myCurveContext.bezierCurveTo(100, 20, 200, 50, 10, 90);
+				myCurveContext.stroke();*/
+				
+				var lineargradient = ctx.createLinearGradient(0,0,150,150);  
+				lineargradient.addColorStop(0,'white');  
+				lineargradient.addColorStop(1,'black');  
+				
+				ctx.beginPath();  
+				ctx.arc(75,75,60,0,Math.PI*2,true); // Outer circle 
+				
+				var lingrad = ctx.createLinearGradient(0,0,0,150);
+	  			lingrad.addColorStop(0, '#00ABEB');
+	  			lingrad.addColorStop(1, '#fff');
+	  			
+				ctx.fillStyle = lingrad;
+				ctx.fill();
+				ctx.moveTo(110,75);  
+				ctx.arc(75,75,35,0,Math.PI,false);   // Mouth (clockwise)  
+				ctx.moveTo(65,65);  
+				ctx.arc(60,65,5,0,Math.PI*2,true);  // Left eye
+				ctx.moveTo(95,65);  
+				ctx.arc(90,65,5,0,Math.PI*2,true);  // Right eye  
+				ctx.stroke(); 
+				
+				var textToDraw = document.getElementById("helloWorld").firstChild.nodeValue;
+				//alert(textToDraw);
+				myCurveContext.font = "1.5em Arial";
+				myCurveContext.fillText(
+				   textToDraw,
+				   35,
+				   70,
+				   75
+				);
+
+
+			} //close if (canvas.getContext)
+		} //close drawMe()
+		</script>
+  </head>
+  <body onLoad="drawMe()">
+    <canvas id="gradient" width="150px" height="150px"></canvas>
+    <canvas id="curveCanvas" width="150px" height="150px"><p id="helloWorld">Hello World!</p></canvas>
+    
+  </body>
+
+</html>

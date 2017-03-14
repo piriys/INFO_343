@@ -1,0 +1,159 @@
+/*Variables*/
+/*Font-Face*/
+@font-face {
+  font-family: "Segoe UI";
+  src: url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../../../font/segoeui.ttf');
+}
+@font-face {
+  font-family: "Segoe Light";
+  src: url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../../../font/segoeuil.ttf');
+}
+/*Mix-Ins*/
+/*Global Inlines*/
+h1,
+h2,
+h3 {
+  font-weight: lighter;
+  font-family: "Segoe Light", sans-serif;
+}
+header hgroup {
+  height: 100%;
+  float: left;
+}
+header h1 {
+  font-size: 4em;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
+header h2 {
+  font-size: 1.5em;
+  line-height: 50%;
+  color: #f79608;
+}
+a {
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  -ms-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+a:hover {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+/*body*/
+body {
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  background: url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../../../img/foreground.png') no-repeat center center fixed, url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../../../img/background.png') no-repeat center center fixed;
+  background-color: #28292b;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+/*Content Wrapper*/
+#content {
+  width: 650px;
+  margin: 20px auto auto auto;
+}
+#results {
+  width: 300px;
+  height: 410px;
+  margin-right: 10px;
+  float: left;
+  padding: 10px;
+  visibility: hidden;
+}
+#result1 {
+  width: 320px;
+  height: 430px;
+  background-position: right;
+  background-size: auto 430px;
+  float: left;
+  font-size: 3em;
+  line-height: 100%;
+  color: white;
+  position: relative;
+  padding: 0px;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#result1 span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-align: left;
+}
+.dawg {
+  visibility: hidden;
+}
+.button {
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+  font-size: 0.8em;
+  margin: 0 10px 10px 0;
+  position: relative;
+  float: left;
+  color: white;
+  background-size: auto 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.button.last {
+  margin-right: 0;
+}
+.button.bottom {
+  margin-bottom: 0;
+}
+.button span {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  text-align: right;
+}
+.button:hover,
+.themebutton:hover,
+#result1:hover {
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.state-inactive {
+  background-color: #1eadfe;
+}
+.state-active {
+  background-color: #91d100;
+}
+#byBreed {
+  background-image: url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../img/sortbybreed.png');
+}
+#byWeight {
+  background-image: url('https://students.washington.edu/piriys/info343/portfolio/sort-less/css/../img/sortbyweight.png');
+}

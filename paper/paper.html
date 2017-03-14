@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="./css/paper.css" />	
+		<link rel="shortcut icon" href="../img/favicon.ico">			
+		<meta charset="utf-8" />
+		<title>Piriya Saengsuwarn : INFO 343 Final Paper</title>		
+	</head>
+	
+	<body>
+		<nav>
+				<a href="#introduction">
+					<div class="button">
+						<span>Introduction</span>
+					</div>
+				</a>
+				<a href="#what_is_AC">
+					<div class="button">
+						<span>What is Anonymous Credential?</span>
+					</div>
+				</a>	
+				<a href="#technology">
+					<div class="button">
+						<span>Technology & Competitors</span>
+					</div>
+				</a>	
+				<a href="#applications">
+					<div class="button">
+						<span>Possible Applications</span>
+					</div>
+				</a>	
+				<a href="#conclusion">
+					<div class="button">
+						<span>Conclusion</span>
+					</div>
+				</a>
+				<a href="#references">
+					<div class="button">
+						<span>References</span>
+					</div>
+				</a>					
+		</nav>
+		
+		<article>
+			<header>
+				<h1>Boosting Privacy Online: Anonymous Credentials in the Browser</h1>
+				<h2>Piriya Saengsuwarn INFO 343 Summer 2012 A-Term</h2>
+			</header>
+			
+			<hr />
+			<h1 id="introduction">Introduction</h1>
+			<hr />
+				<h2 id="scenario">Scenario</h2>
+					<p>
+						To introduce the concept of <strong>Anonymous Credentials (AC)</strong>, let us address some concern about online privacy by looking at a typical online shopping scenario. Particularly, a customer wants to buy a bottle of wine from an online store. First, he/she will have to register an account with the store website. Next, the customer has to convince the store that he/she is of legal age to buy alcohol. In traditional cases, he/she will do that by sending his/her name and birthdate to the store. The store will then pass the credentials to the government or any other authorized organization to get back age verification. Finally, the customer will pass the credit card number to the store for them to process the payment with the bank. After the transaction with the bank, the customer will share his/her address with the store for item delivery.  
+					</p>
+					<p>
+						This traditional scenario results in numerous disadvantages. Notably, information stored online will increases as the customer goes shopping on different websites. As a result, the store obtains traceable information about the customer using the service. In addition, the customer is at risk of identity theft if one of the stores has a security breach or betrays his/her trust. Some websites might have encrypted protocol to protect their users, but that is to reinforce security not privacy. Thus the idea of Anonymous Credentials is being developed in order to boost the privacy of users as well as provide additional protection from malicious identity thefts.
+					</p>
+			
+			<hr />
+			<h1 id="what_is_AC">What is Anonymous Credential?</h1>
+			<hr />
+				<p>
+					Anonymous Credentials help protect users by not making the user poses the actual credentials but instead allow them to prove themselves that they are attain to a certain attribute by using cryptographic tokens. The concept of Anonymous Credentials is introduced by <strong>David Chaum</strong>, an American cryptographer, in 1985 article titled <em>Security without Identity - Card Computers to make Big Brother Obsolete.</em> In the article, Chaum wrote about several characteristics of Anonymous Credentials such as <em> Revealing Only Necessary Information</em> and <em>Zero-Knowledge Proof</em>. To show the difference between traditional system and Anonymous Credential implemented system, we will begin with taking a look at the communication model of traditional online transaction.  
+				</p>
+				<h2 id="traditional_model">Traditional Model</h2>
+					<div class="figure" id="fig1">
+						<div class="imgwrapper">
+						<img src="./img/trad_model.png" alt="Traditional Model"/>
+						</div>
+						<p class="notation">
+						Figure 1 - Communication Model of Traditional Online Transaction.
+						</p>
+					</div>
+					<p>
+					As we can see from <em>Figure 1</em>, persons and organizations involved in communication model of online transactions can be categorized into three groups: <em>User</em>, <em>Verifier</em>, and <em>Issuer</em>. 
+					</p>
+					
+					<h3>User</h3>
+					<p>
+					<strong>User</strong> is a group that engage online transaction which requires sharing his/her credentials. Specifically in the online wine-shopping scenario mentioned in the beginning, the User is represented by the customer who is buying a bottle of wine.
+					</p>
+					
+					<h3>Verifier</h3>
+					<p>
+					<strong>Verifier</strong> is a group that receives the credentials transferred by the User and processes them in order to provide services. In the scenario, the Verifier is represented by the online wine store website.
+					</p>
+					
+					<h3>Issuer</h3>
+					<p>
+					<strong>Issuer</strong> is a group that provides validation, certificate, or payment to the verifier according to the attributes in the credentials that the Verifier transfer to them. In the scenario the Issuer is represented by the government, or any authorized organization that can issue age certificate, and the bank. 
+					</p>
+					
+					<h3>The Problem</h3>
+					<p>
+					As demonstrated in the scenario, one disadvantage of traditional model is the amount of information disclosed between the User and the Verifier. Furthermore, we can see from the model that there is an unnecessary <em>two-way interaction</em> (illustrated with bi-directional arrow in <em>Figure 1</em>) between the Verifier and the Issuer. In the interaction, the attributes sent by the User is passed to the Issuer by the Verifier and the Issuer will send back certificate or validation. Consequently, the Issuer will also have information about the transaction between the Verifier and the User as well. Anonymous credential implementation aims to eliminate this problem by changing the communication model. 
+					</p>
+				<h2 id="AC_implemented_model">Anonymous Credential Implemented Model</h2>
+					<div class="figure" id="fig2">
+						<div class="imgwrapper">
+						<img src="./img/ac_model.png" alt="AC Model"/>
+						</div>
+						<p class="notation">
+						Figure 2 - Communication Model of Anonymous Credentials Enabled Online Transaction.
+						</p>						
+					</div>	
+					<p>
+					In Anonymous Credentials implemented model, we can see from <em>Figure 2</em> that the User will request to the Issuer to send verifications directly to the Verifier without passing the credentials through the Verifier. Consequently, this model eliminates the interaction where the Verifier and the Issuer pass the credentials back and forth. Additionally, the User will be masked with <em>Anonymous Protocol</em> so that the Verifier will not be able to trace the transaction back to the User. Remarkably, one characteristic of Anonymous Protocol is that the User can choose which attribute to reveal. In addition, the Verifier will see only what they need to see. In our previous scenario, the User can choose to show that he is old enough to drink instead of showing all of his/her credentials (name and birthdate) as it is demonstrated in <em>Figure 3</em>.  
+					</p>
+
+					<div class="figure" id="fig3">
+						<div class="imgwrapper">
+						<img src="./img/credentials_1.png" alt="Age Verification Credentials"/>
+						</div>
+						<p class="notation">
+						Figure 3 - Credentials revealed to Verifier for Age Verification of AC Model vs. Traditional Model.
+						</p>						
+					</div>						
+					
+					<p>
+					Similarly, the User can choose to show how much he/she paid for the services or goods instead of sending the credit card information for the Verifier to process as shown in <em>Figure 4</em>. This is similar to using your credit card to buy coupons in a food court, and then use those coupons to buy food. A food store owner does not know how a customer pay for the coupons, but that is enough for him to ensure that he will get paid for the food he serves to the customer. The representation of untraceable payment for digital coupon is a characteristic of <strong>Cryptographic Tokens</strong>. 
+					</p>
+					
+					<div class="figure" id="fig4">
+						<div class="imgwrapper">
+						<img src="./img/credentials_2.png" alt="Payment Credentials"/>
+						</div>
+						<p class="notation">
+						Figure 4 - Credentials revealed to Verifier for Payment of AC Model vs. Traditional Model.
+						</p>						
+					</div>	
+					
+					<p>
+					The feature of choosing to disclose only information needed in Anonymous Protocol is what we call <strong>Selective Attribute Showing</strong> or <em>Revealing Only Necessary Information</em> according to Chaum's article. Another attribute of Anonymous Protocol is verifying that a certain statement is true without revealing any extra information. One example is <em>hasLegalAge</em> attribute in <em>Figure 3</em>. This attribute is called <strong>Zero-Knowledge Proof</strong>.
+					</p>
+					
+			<hr />
+			<h1 id="technology">Technology & Competitors</h1>
+			<hr />
+				<p>
+				Currently, there is no fully functional implementation of Anonymous Credentials yet. However, there are several Anonymous Credentials technologies being under research and development by major companies such as IBM and Microsoft.
+				</p>
+				<h2 id="idemix">IDEMix</h2>
+					<p>
+						<strong>IDEMix (Identity Mixer)</strong> is an Anonymous Credential system implemented into Java library that is being developed at IBM Research at Zurich. Users can obtain from an issuer a credential containing all the information the issuer is ready to attest about them. When a user wants to prove to a service provider a statement about him/her, he/she employs identity mixer to securely transform the issued credential. The transformed credential will only contain the subset of the attested information while encapsulating the other personal data that he/she is not willing to disclose. IDEMix also modifies the encrypted credentials of the user each time it is accessed, making it almost impossible for websites to track activity.
+					</p>
+				<h2 id="primecore">PRIMECore</h2>
+					<div class="figure" id="fig5">
+						<div class="imgwrapper">
+						<img src="./img/primecore.png" alt="How PRIMEcore Works"/>
+						</div>
+					</div>	
+						<p class="notation">
+						Figure 5 - How PRIMECore works.
+						</p>						
+					<p>
+						<strong>PRIMECore</strong> is an implementation of IDEMix for web browsers that is developed in collaboration between Privacy and Identity Management for Europe (PRIME) and W3C. There are two components of PRIMECore: client and server. From a Firefox browser extension or a config file, a user can initiate PRIMECore as a proxy to intercept and encrypt the normal communication flow. As the user enters a web page, traffic is redirect to HTTP-proxy of client PRIMECore. The client then requests webpage from the PRIMECore server. If there is any personal data required for the page, PRIMECore will display some dialog asking the user about data to disclose to the server. Finally, the user will be able to enable the client to reveal his/her credentials to the server.
+					</p>
+				<h2 id="u-prove">Microsoft U-Prove</h2>					
+					<p>
+						<strong>Microsoft U-Prove</strong> is an identity management technology being developed by Microsoft in accordance with ABC4Trust (Attribute-Based Credentials for Trust) Project. U-Prove technology shares numerous similarities with the PRIMECore technology. As an online service, Microsoft offers a client of U-Prove called <strong>U-Prove Agents</strong> which is accessible from any web browser. U-Prove Agents is a component that is similar to PRIMECore client which helps secure privacy of a user by enabling Selective Attribute Showing with different destination websites.
+					</p>
+					
+			<hr />
+			<h1 id="applications">Possible Applications</h1> 
+			<hr />
+				<p>
+				Anonymous Credentials can be implemented into online transaction website to promote security and privacy. Here are some possible applications: 
+				</p>
+				<h2 id="age-restricted_services">Age-Restricted Services</h2>
+					<p>
+					First application would be age verification in online stores. Not only that it will protect personal information of a user, but also it will prevent inappropriate user from accessing it as well. Underage children can easily input false birth date to view and buy age-restricted video game content, for example, violent mature-rated games. Numerous online stores do not take age verification seriously because it is too complicated and unnecessary to process. Anonymous credentials could help simplified the progress and thus motivating online retailers to enforce the policy.
+					</p>
+					<p>
+					Instead of revealing a total of 3 actual attributes in <em>Figure 6</em>, Anonymous Credential system disclose only <em>hasLegalAge</em> attribute as shown in <em>Figure 7</em>.
+					</p>
+					
+					<h3 id="tradmodel1">Traditional Model</h3>
+					<div class="figure" id="fig6">
+						<div class="imgwrapper">
+						<img src="./img/trad_services.png" alt="Traditional Services Model"/>
+						</div>
+						<p class="notation">
+						Figure 6 - Traditional Model for Age-Restricted Services.
+						</p>						
+					</div>						
+					<h3 id="ACmodel1">AC Implemented Model</h3>
+					<div class="figure" id="fig7">
+						<div class="imgwrapper">
+						<img src="./img/ac_services.png" alt="AC Services Model"/>
+						</div>
+						<p class="notation">
+						Figure 7 - AC Model for Age-Restricted Services.
+						</p>							
+					</div>				
+				
+				<h2 id="voting">Voting</h2>
+					<p>
+					Another implementation would be Anonymous Voting. Instead of providing address, name, birthdate, and other information for resident verification, a voter can use the Zero-Knowledge Proof to verify that he/she is a valid resident of Washington State as shown in <em>Figure 8</em> and <em>Figure 9</em>. To prevent a voter from voting multiple times, some attribute is recorded and sent to the key server. While actual attributes are stored in traditional model, Anonymous Credential model encrypts certain attributes of the user into a unique id key. When a new voter enters the website, his/her id key will be checked with the stored keys in the server instead of actual names and address. Since the website does not know how which and how attributes are encrypted, they cannot trace back to see who a voter voted for.
+					</p>
+					<p>
+						Instead of revealing a total of 4 actual attributes in <em>Figure 8</em>, Anonymous Credential system disclose only 2 attributes as shown in <em>Figure 9</em>.		
+					</p>
+					<h3 id="tradmodel2">Traditional Model</h3>
+					<div class="figure" id="fig8">
+						<div class="imgwrapper">
+						<img src="./img/trad_voting.png" alt="Traditioal Voting Model"/>
+						</div>
+						<p class="notation">
+						Figure 8 - Traditional Model for Voting.
+						</p>							
+					</div>						
+					<h3 id="ACmodel2">AC Implemented Model</h3>		
+					<div class="figure" id="fig9">
+						<div class="imgwrapper">
+						<img src="./img/ac_voting.png" alt="AC Voting Model"/>
+						</div>
+						<p class="notation">
+						Figure 9 - AC Model for Voting.
+						</p>							
+					</div>				
+					
+				<h2 id="shopping">Shopping</h2>
+					<p>
+					Finally, let us go back to the scenario in the beginning again and take a look at it in detail. In Anonymous Credential model, a customer gets his/her age verified instead of sending his/her name to the store similar to the Age-Restricted case. Next, he/she makes a payment through Anonymous Protocol using Cryptographic Tokens. An encrypted key similar to the one implemented in Anonymous Voting is also sent for delivery purpose. When the stores have the ordered item ready, they will pass the given encrypted key to the mailing service. The key is then passed through the Anonymous Protocol to be decrypted for mailing address. As a result, only the mailing service will know the address of the customer.
+					</p>
+					
+					<p>
+						Instead of revealing a total of 7 actual attributes in <em>Figure 10</em>, Anonymous Credential system disclose only 3 attributes as shown in <em>Figure 11</em>.					
+					</p>
+					<h3 id="tradmodel4">Traditional Model</h3>
+					<div class="figure" id="fig10">
+						<div class="imgwrapper">						
+						<img src="./img/trad_shopping.png" alt="Traditional Shopping Model"/>		
+						</div>
+						<p class="notation">
+						Figure 10 - Traditional Model for Shopping.
+						</p>							
+					</div>
+					<h3 id="ACmodel4">AC Implemented Model</h3>		
+					<div class="figure" id="fig11">
+						<div class="imgwrapper">
+						<img src="./img/ac_shopping.png" alt="AC Shopping Model"/>
+						</div>
+						<p class="notation">
+						Figure 11 - AC Model for Shopping.
+						</p>							
+					</div>
+			
+			<hr />
+			<h1 id="conclusion">Conclusion</h1>
+			<hr />
+			<p>
+			According to <em>Bureau of Justice Statistic</em> website, the percent of households that experienced identity theft has risen from 5 percent in 2005 to 7 percent in 2010. One of the many factors that might have contributed to the rise could be the increase in number of the Internet users. While it is true that the Internet has opened many doors to knowledge with its free flow of information, it is a double-edged sword that allows criminal to find their victims easier as well. The involvement of W3C in the Prime project and the development of P3P (Platform for Privacy Preferences) demonstrates growing concern of the W3C organization for privacy of the Internet users. In the future, we might see Anonymous Credentials as a new web standard similar to HTML5, CSS3, and WAVE. With Anonymous Credentials, the web can take another step towards being a community that values the privacy of its users.
+			</p>
+			
+			<hr />
+			<h1 id="references">References</h1>
+			<hr />
+			<ul>
+				<li><a href="http://idemix.wordpress.com/2009/08/18/quick-intro-to-credentials/">A Quick Introduction to Credentials</a></li>
+				<li><a href="http://www.chaum.com/articles/Security_Wthout_Identification.htm">Security without Identity - Card Computers to make Big Brother Obsolete</a></li>
+				<li><a href ="http://www.ted.com/talks/david_birch_identity_without_a_name.html">David Birch: Identity without a name</a></li>
+				<li><a href ="http://research.microsoft.com/apps/video/dl.aspx?id=103799">Delegaable Anonymous Credentials - Microsoft Research</a></li>
+				<li><a href ="http://connectppe.microsoft.com/site1188">U-Prove - Microsoft Connect</a></li>				
+				<li><a href="./references/rz3730_revised.pdf">Specification of the Identity Mixer Cryptographic Library</a></li>
+				<li><a href="./references/kellermann_scholz09_anonymous_credentials_in_web_applications.pdf">Anonymous Credentials in Web Applications - A Child's Play with the PRIME Core</a></li>	
+				<li><a href="./references/camvan02.pdf">Design and Implementation of the idemix Anonymous Credential System</a></li>	
+				<li><a href="http://www.zurich.ibm.com/security/idemix/">IBM Research - Zurich</a></li>					
+				<li><a href="./references/Prime-Primer-2pager.pdf">Me, Myself and I! Manage your identities safely</a></li>
+				<li><a href="http://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero-knowledge proof - Wikipedia, the free encyclopedia</a></li>
+				<li><a href ="./itrh0510.pdf">Identity Theft Reported by Households, 2005-2010</a></li>				
+			</ul>
+		</article>
+	</body>
+</html>

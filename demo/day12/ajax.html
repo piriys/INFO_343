@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>First AJAX</title>
+		<script type="text/javascript">
+			function doFirstAJAX() {   
+
+				//  Declare our XMLHttpRequest Object
+				var myHttp = false;
+				
+				//  Deal with cross browser issues in creating an XMLHttpRequest object
+				if(navigator.appName == "Microsoft Internet Explorer") {
+					myHttp = new ActiveXObject("Microsoft.XMLHTTP");
+				}  // close if
+				else {
+					myHttp = new XMLHttpRequest();
+				}  //close else
+				
+				//  Request the file 'first.txt'    
+				myHttp.open("GET", "first.txt", true);
+				
+				//  When the server responds, give the response to the function 'handleResponse'
+				myHttp.onreadystatechange=handleResponse();
+				
+				//  Send the response
+				myHttp.send();
+				
+				function handleResponse() {
+					//  When the response has been completely received
+					if(myHttp.readyState == 4) {
+						//  Show the response in an alert box       
+						alert(myHttp.responseText);
+						document.getElementById("myDiv").innerHTML = myHttp.responseText;
+					}  // close if
+				}  //close handleResponse()
+			} //close doFirstAJAX()
+		</script>
+	</head>
+	<body>
+		<div id="myDiv"><h2>Let AJAX change this text</h2></div>
+		<button type="button" onclick="doFirstAJAX()">Change Content</button>
+	</body>
+</html>

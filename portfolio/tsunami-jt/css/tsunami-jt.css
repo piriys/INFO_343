@@ -1,0 +1,370 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../../font/segoeuil.ttf');
+}
+
+@font-face {
+	font-family: "Timeless";
+	src: url('../../../font/Timeless.ttf');
+}
+/***************************/
+
+html {
+	font-family: "Times New Roman", serif;	
+	background-image: url("../img/tsunami650px_blue.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;	
+	color: #242424;
+	/*font-family: "Segoe UI", sans-serif;*/
+}
+
+h1, h2, h3, h4 {
+	/*font-family: "Segoe Light", sans serif;*/
+	font-weight: lighter;
+}
+
+a {
+	color: #1eadfe;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+hr {
+	border-top: 1px solid #1eadfe;
+}
+
+em {
+	color: #aaaaaa;
+}
+	#title em {
+		color: #242424;
+	}
+	#home em {
+		color: #1eadfe;
+	}
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+	ul li {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		margin-top: 20px;
+	}
+		ul li h2 {
+			font-size: 1.2em;
+		}
+
+ol {
+	list-style-type: lower-roman;
+	margin-left: 10px;
+	padding-left: 0;
+}
+	li {
+		margin-bottom: 20px;
+	}
+		li h2 {
+			margin-bottom: 5px;
+		}
+	
+#bodywrapper {
+	width: 980px;
+	margin: 50px auto 100px auto;
+}
+
+section, footer, nav {
+	width: 100%;
+	min-height: 25px;
+	margin-bottom: 10px;
+}
+#topbar {
+
+}
+	.navblock {
+		background-color: #242424;
+	}
+	#button1, #button2, #button3, #button4 {
+		background-color: #242424;
+		color: white;
+	}
+		#topbar .borderwrapper {
+			width: 100%;
+			border-bottom: 3px hidden #1eadfe;	
+		}
+			#topbar .contentwrapper {
+				padding-left: 10px;
+			}
+			
+		#home {
+			background-color: transparent;
+			color: #242424;	
+		}
+			#home .borderwrapper {
+				border-bottom-style: hidden;
+				border-left: 5px solid #1eadfe;
+			}	
+		#logobutton {
+			background-image: url('../img/tsunami25px_white.png');
+			background-position: right center;
+			background-repeat: no-repeat;
+			background-color: #1eadfe;		
+		}
+			#logobutton .borderwrapper {
+				border-color: #242424;
+			}
+
+		
+#bannersec {
+
+}
+	#logo {
+		text-align: center;
+	
+	}
+		#ts {
+			position: relative;
+			font-size: 2.8em;
+		}
+		#u {
+			position: relative;
+			font-size: 1.5em;
+			top: -20px;
+		}	
+		#n {
+			position: relative;
+			font-size: 2.5em;
+			top: -15px;
+		}	
+		#a {
+			position: relative;
+			font-size: 3.5em;
+			left: -50px;
+			top: 15px;
+			color: #1eadfe;
+		}
+		#m {
+			position: relative;
+			font-size: 2.5em;
+			left: -50px;
+			top: 12px;		
+		}	
+		#i{
+			position: relative;
+			font-size: 4.0em;
+			left: -50px;
+			top: 10px;
+			color: #1eadfe;				
+		}	
+		#mark {
+			position: relative;	
+			font-size: 2.8em;
+			left: -50px;
+			top: 10px;		
+		}
+	#title {
+	
+	}
+		#title h1 {
+			font-size: 2.5em;
+		}
+		#title h2 {
+			padding-left: 20px;
+			font-size: 1.5em;
+		}
+		#title .contentwrapper, #logo p {
+			position: relative;
+			height: 64px;
+			top: 50%;
+			margin-top: -32px;
+		}
+	
+
+#bannerimgsec {
+
+}
+	#bannerimg {
+		background-image: url('../img/tsunami200px_white.png'), url('../img/background.jpg');
+		background-size: auto auto, 100% auto;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-color: #1eadfe;
+	}
+		#bannernote {
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background-color: black;
+			color: white;
+		}
+			#bannernote {
+				padding-left: 10px;
+			}
+
+#firstcontentsec {
+	border-bottom: 3px solid #1eadfe;
+	padding-bottom: 10px;
+	margin-bottom: 2px;
+}
+	#w {
+		font-size: 44px;
+		font-weight: bold;
+		height: 44px;
+		line-height: 44px;	
+		text-align: left;
+		vertical-align: baseline;	
+		float: left;
+		margin-right: 5px;
+	}
+	#firstcontentsec h2 {
+		margin-bottom: 5px;
+	}
+	.news {
+		margin-top: 10px;
+		padding-bottom: 10px;
+	}
+		.news p{
+			margin-top: 0;
+		}	
+		
+	h3.posttime {
+		font-size: 0.8em;
+		margin-bottom: 10px;
+		color: #ccc;
+	}
+#secondcontentsec {
+	border-top: 1px solid #1eadfe;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+	#secondcontentsec p {
+		font-size: 0.9em;
+	}
+	
+	#secondcontentsec ol {
+		font-size: 0.95em;
+	}
+	section .borderwrapper {
+		width: 100%;
+		height: 100%;
+		border-right: 1px dotted #1eadfe;
+	}
+		section .borderwrapper  .contentwrapper {
+			padding: 10px;
+		}
+		
+		section article {
+		
+		}
+			section article h1 {
+				letter-spacing: 0.2em;
+			}
+	
+#firstfootersec {
+	border-top: 1px dotted #1eadfe;
+	border-bottom: 3px solid #1eadfe;
+	margin-bottom: 2px;
+}
+	#quote {
+		height: 100%;
+		display: table;
+	}
+		#quote p {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+		}
+		
+#secondfootersec {
+	border-top: 1px solid #1eadfe;
+	padding-top: 10px;
+}
+
+
+/*Grids*/
+.quartercolY .contentwrapper {
+	height: 100%;
+	display: table;
+}
+	.quartercolY .contentwrapper  p, .quartercolY .contentwrapper  span {
+			display: table-cell;
+			vertical-align: middle;
+			text-align: center;
+	}	
+	
+/*Buttons*/
+#home a {
+	color: #242424; 
+}
+
+#home .borderwrapper:hover {
+	background-color: #1eadfe;
+	color: white;
+	border-color: #242424;
+
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;	
+	transition: all 0.5s ease-in;	
+}
+
+#logobutton .borderwrapper:hover {	
+	background-color: #242424;
+	background-image: url('../img/tsunami25px_blue.png');
+	border-color: #1eadfe;
+	border-bottom-style: solid;
+	
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;	
+	transition: all 0.5s ease-in;		
+}
+
+.button a {
+	color: white;
+}
+
+#button1 .borderwrapper:hover, #button2 .borderwrapper:hover, #button3 .borderwrapper:hover, #button4 .borderwrapper:hover {
+	background-color: #1eadfe;
+	color: white;
+	border-color: #242424;
+	border-bottom-style: solid;
+	
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;	
+	transition: all 0.5s ease-in;		
+}
+
+/*Nav Buttons*/
+.navbutton {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;	
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;	
+	transition: all 0.5s ease-in;		
+}
+
+.navbutton.right {
+	background-image: url("../img/arrowright_blue.png");		
+}
+
+.navbutton.right:hover {
+	background-image: url("../img/arrowright_black.png");	
+}

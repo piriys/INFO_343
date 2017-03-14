@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>	
+		<script type="text/javascript" src="./js/coursesABC.js"></script>			
+		<link rel="stylesheet" type="text/css" href="./css/coursesABC.css" />
+		<link rel="stylesheet" type="text/css" href="./css/button.css" />	
+		<link rel="shortcut icon" href="../../img/favicon.ico">			
+		<meta charset="utf-8" />
+		<title>iSchool Web Services : Course Directory</title>
+	</head>
+	<body>
+		<section id="content">
+			<header> 
+				<h1>iSchool Web Services</h1>
+				<h2>Course Directory</h2>
+			</header>
+			<nav>
+				<a href="#">
+					<div class="button theme state-inactive" id="get_a" onclick="getCourses('a')">
+						<span>A</span>
+					</div>
+				</a>
+				<a href="#">	
+					<div class="button theme state-inactive" id="get_b" onclick="getCourses('b')">
+						<span>B</span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive" id="get_c" onclick="getCourses('c')">
+						<span>C</span>
+					</div>
+				</a>
+				<!--<a href="#">
+					<div class="button theme state-inactive" id="get_d" onclick="getCourses('d')">
+						<span>D</span>
+					</div>		
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive" id="get_e" onclick="getCourses('e')">
+						<span>E</span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive" id="get_f" onclick="getCourses('f')">
+						<span>F</span>
+					</div>	
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive" id="get_g" onclick="getCourses('g')">
+						<span>G</span>
+					</div>		
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive last" id="get_h" onclick="getCourses('h')">
+						<span>H</span>
+					</div>						
+				</a>-->
+			</nav>
+			<article>
+				<div id="tablewrapper" class="state-inactive">
+					<table id="results">
+					</table>
+				</div>
+			</article>
+		</section>
+	</body>
+</html>

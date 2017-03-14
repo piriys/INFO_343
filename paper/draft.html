@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!--<link rel="shortcut icon" href="">-->
+		<meta charset="utf-8" />
+		<title>INFO 343 :: Paper Draft</title>		
+		<style type="text/css">
+			img {
+				max-height: 500px;
+			}
+			nav li {
+				display: inline;
+				margin: 0.5em;
+			}
+			reflist ul {
+				list-style-image: none;
+				margin: 1.5em;
+			}
+		</style>		
+		<link rel="shortcut icon" href="../../img/favicon.ico">			
+	</head>
+	
+	<body>
+		<header>
+			<hgroup>
+				<h1>Boosting Privacy Online: Anonymous Credentials in the Browser</h1>
+				<h2>Piriya Saengsuwarn INFO 343 Summer 2012 - Term A</h2>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href="#intro">Introduction</a></li>
+					<li><a href="#whatis">What is Anonymous Credential?</a></li>
+					<li><a href="#development">Development</a></li>
+					<li><a href="#application">Current Application</a></li>
+					<li><a href="#futureuse">Future Use</a></li>
+					<li><a href="#conclusion">Conclusion</a></li>
+					<li><a href="#references">References</a></li>
+				</ul>
+			</nav>
+		</header>
+		<hr />
+		
+		<h2 id="intro">Introduction</h2>
+		<p>
+In an online wine-shop case, supposedly a customer wants to buy a wine from an online store. First, the customer has to register for an account by signing up with his/her email. Next, he/she has to verify that his/her age is legal to buy liquor. To prove that the credentials are correct, the customer(user) has to convince the store(verifier) that his/her information is valid by showing all of his/her personal data so that the store can verify the signature. This scenario results in numerous disadvantages. Personal data are stored online and will increase as the customer goes shopping on different websites. Furthermore, the online store learns about the intention of the customer to use the service. In addition, the access control credentials (username and password) could be given to other people and the customer is traceable through different sessions. If one of these websites has a security breach or betrays the trust, the customer is at risk of having his/her identity stolen. Amount of information disclosed on the internet both intentionally and unintentionally could lead to a negative impact on our personal life. To improve privacy and credentials protection, the idea of Anoynmous Credentials is introduced by David Chaum in 1985.
+		</p>
+		
+		<h2 id="whatis">What is Anonymous Credential?</h2>
+		<p>
+ Anonymous credentials system helps protect users by not making the user poses the actual credentials but instead allow them to prove themselves that they are attain to a certain attribute by using cryptographic tokens. In the online wine-shop case, instead of showing the store date of birth and his/her name and last name, the user can show the store a certificate issued by a government that he/she has a legal age of drinking. This case is illustrated in the following diagram:
+		</p>
+		<img src="./img/whatis01.png" alt="diagram"/>
+		<p>
+As it is demonstrated in the case, one important characteristic of anonymous credential is Selective Attribute Showing. The user can choose to reveal only that he/she is old enough to drink without showing his/her actual name and vice versa. Therefore, anonymous credential has an advantage over traditional way that it protects the user from having his/her identity stolen, since the attributes of the credential is revealed only partially. 
+		</p>
+
+		<p>
+In detail, anonymous system consists of issuers, recipents, provers and verifiers. 
+		</p>
+		
+		<h2 id="development">Development</h2>
+		<h3>IDEMix (IDEntity Mixer)</h3>
+		<p>
+IDEMix is an anonymous credential system developed at IBM research software. Users can obtain from an issuer a credential containing all the information the issuer is ready to attest about them. When a user wants to prove to a service provider a statement about him/her, he/she employs identity mixer to securely transform the issued credential. The transformed credential will only contain the subset of the attested information while encapsulating the other personal data that he/she is not willing to disclose. IDEMix also modifies the encrypted credentials of the user each time it is accessed, making it almost impossibe for websites to track activity.
+
+		<h2 id="application">Current Application</h2>
+		<h3>PRIME Core</h3>
+		<p>
+PRIME Core is an implementation of IDEMix for web browser that is developed by Privacy and Identity Management for Europe (PRIME). There are two components of PRIME core: client and server. From a Firefox browser extension or a config file, a user can initiate PRIME core as a proxy to intercept and encrypt the normal communication flow. As the user enters a web page, traffic is redirect to HTTP-proxy of client PRIME core. The client then requests webpage from the PRIME core server. If there is any personal data required for the page, PRIME core will display some dialog asking the user about data to disclose to the server. Finally, the user will be able to enable the client to reveal his/her credentials to the server. 
+		</p>
+		
+		<h2 id="futureuse">Future Use</h2>
+		<p>
+		Anonymous credentials system can be implemented into online transaction websites to promote privacy.
+		</p>
+		<h3>Online Game Store</h3>
+		<img src="./img/futureuse01.png" alt="future use"/>
+		<p>
+ First example is that the system can be use with age verification in online stores. Not only that it will protect user's personal data, but also it will prevent inappropriate users from accessing it as well. Under age children can easily input false birth date to view and buy age-restricted video game content, for example, violent mature-rated games. Numerous online store does not take verification seriously because it is too complicated and unnecessary. Anonymous credentials could help simplified the progress and thus motivating online retailers to enforce the policy. The implamentation could help building the privacy of transaction on the internet.
+		</p>
+		<h3>Online Car Rental</h3>
+		<p>
+Anonymous credential will enable user to rent a car without having to show personal information on the driving license. Instead, user can use the system to prove that he/she is a licensed driver.	
+		</p>
+		<h2 id="conclusion">Conclusion</h2>
+		<p>
+Recently, W3C has developed an interest in anonymous credential system as we can see in its involvement with the EU Prime project. It is possible that anonymous credentials will be a Standard Web Platform like HTML5 and CSS3 in the future. Implementing anonymous credential into web browser as a standard will help the internet to be a safer place that values the privacy of its users.
+		</p>
+		<h2 id="references">References</h2>
+		<ul>
+			<li>
+				<a href="./references/camvan02.pdf">
+					Design and Implementation of the idemix Anonymous Credential System
+				</a>
+			</li>
+			<li>
+				<a href="http://www.w3.org/QA/2010/11/boosting_privacy_online_-_anon.html">
+					Boosting privacy online - anonymous credentials in the browser
+				</a>
+			</li>
+			<li>					
+				<a href="http://www.deepdyve.com/lp/association-for-computing-machinery/security-without-identification-transaction-systems-to-make-big-x9r9LmyVqm">
+					Security without identification: transaction systems to make big brother obsolete
+				</a>
+			</li>
+		</ul>
+	</body>
+</html>

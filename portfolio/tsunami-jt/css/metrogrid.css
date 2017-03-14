@@ -1,0 +1,104 @@
+.quartercolX, .halfcolX, .onecolX, .twocolX, .threecolX, .fivecolX, .sixcolX, .sevencolX, .ninecolX  {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+	.quartercolX {
+		width: 25px;
+	}
+	
+	.halfcolX {
+		width: 50px;
+	}
+	
+	.onecolX {
+		width: 100px;
+	}
+	
+	.twocolX {
+		width: 210px;
+	}
+	
+	.threecolX {
+		width: 320px;
+	}
+	
+	.fourcolX {
+		width: 430px;
+	}
+	
+	.fivecolX {
+		width: 540px;
+	}	
+	
+	.sixcolX {
+		width: 650px;
+	}
+	
+	.sevencolX {
+		width: 760px;
+	}
+	
+	.ninecolX {
+		width: 980px;
+	}
+
+.quartercolY, .halfcolY, .onecolY, .twocolY, .threecolY, .fourcolY, .fivecolY,  .sixcolY, .sevenColY, .eightcolY, .ninecolY {
+	margin-bottom: 10px;
+	position: relative;
+}
+	.quartercolY {
+		height: 25px;
+			
+	}
+
+	.halfcolY {
+		height: 50px;
+	}
+	.onecolY {
+		height: 100px;
+	}
+
+	.twocolY {
+		height: 210px;
+	}
+	
+	.threecolY {
+		height: 320px;
+	}
+	
+	.fourcolY {
+		height: 430px;
+	}
+
+	.fivecolY {
+		height: 540px;
+	}
+	
+	.sixcolY {
+		height: 650px;
+	}
+	
+	.sevencolY {
+		height: 760px;
+	}
+	
+	.eightcolY {
+		height: 870px;
+	}
+		
+	.ninecolY {
+		height: 980px;
+	}
+	
+	.fullcolY {
+		height: 100%;
+	}
+	
+.lastX {
+	margin-right: 0;
+}
+
+.lastY {
+	margin-bottom: 0;
+}

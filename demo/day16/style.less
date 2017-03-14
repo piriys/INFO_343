@@ -1,0 +1,173 @@
+@import "reset.less";
+
+/*                                                           *\
+===============================================================
+	Variables
+===============================================================
+\*                                                           */
+
+
+	// Colors
+	// -------------------------
+	@black:             #000;
+	@grayDarker:        #222;
+	@grayDark:          #333;
+	@gray:              #555;
+	@grayLight:         #999;
+	@grayLighter:       #eee;
+	@white:             #fff;
+
+	@baseColor:			hsl(30, 90%, 68%);
+	@baseColorLight:	lighten(@baseColor, 20%);
+	@baseColorDark:		darken(@baseColor, 20%);
+	@accent:			spin(@baseColor, 180);
+
+
+
+/*                                                           *\
+===============================================================
+	Mix-ins
+===============================================================
+\*                                                           */
+
+	.box-shadow(@shadow) {
+		-webkit-box-shadow: @shadow;
+		   -moz-box-shadow: @shadow;
+		    -ms-box-shadow: @shadow;
+		     -o-box-shadow: @shadow;
+		        box-shadow: @shadow;
+	}
+
+	.gradient(@startColor: black, @endColor: white) {
+		background: -webkit-linear-gradient(top, @startColor 0%, @endColor 100%);
+		background: -moz-linear-gradient(top, @startColor 0%, @endColor 100%);	
+		background: -ms-linear-gradient(top, @startColor 0%, @endColor 100%);	
+		background: -o-linear-gradient(top, @startColor 0%, @endColor 100%);		
+		background: linear-gradient(top, @startColor 0%, @endColor 100%);		
+	}
+/*                                                           *\
+===============================================================
+	Basics
+===============================================================
+\*                                                           */
+
+	header {
+		background: @baseColor;
+		padding-top: 2em;
+	}
+
+	nav {
+		background: @accent;
+
+		ul {
+
+			li {
+				display: inline;
+				margin-right: 1em;
+
+				a {
+					color: @white;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	footer {
+		background: @accent;
+	}
+
+
+	h1,h2,h3,h4,h5,h6 {
+		color: darken(@accent, 20%);
+	}
+
+
+
+/*                                                           *\
+===============================================================
+	Elements
+===============================================================
+\*                                                           */
+
+
+/*  Buttons
+    -------------------------------------------------------- */
+
+    .button-generator(@buttonColor: @grayLight, @textColor: @white) {
+	    background: @buttonColor;
+		.gradient(lighten(@buttonColor, 20%), @buttonColor);
+	    border: 1px solid darken(@buttonColor, 10%);
+		
+		text-shadow: 0 -2px rgba(0,0,0,.4);
+    	color: @textColor;
+		.box-shadow(0 2px 4px rgba(0,0,0, .4));
+		
+    }
+	.button {
+		.button-generator(@accent);
+	}
+
+/*  Hero Unit
+    -------------------------------------------------------- */
+
+    .hero-unit {
+	    background: @grayLighter;
+    }
+
+
+
+/*                                                           *\
+===============================================================
+	Grid System
+===============================================================
+\*                                                           */
+
+	@gridWidth: 960px;
+	@gridCols: 12;
+	@gridGutter: 30px;
+	@gridColWidth: (@gridWidth + @gridGutter)/ @gridCols;
+	.show-grid {
+	    [class*=span] {
+		    background: rgba(0,0,0,.3);
+		    border-radius: 4px;
+
+		    padding: 1em 0;
+		    margin-bottom: 1em;
+
+		    text-align: center;
+	    }
+	}
+
+
+    .container {
+	    width: @gridWidth;
+	    margin: auto;
+    }
+
+    .row {
+		background: url("http://griddle.it/@{gridWidth}-@{gridCols}-@{gridGutter}") repeat-y center top;
+		[class*="span"] {
+			width: .span(2);
+			float: left;
+			margin: @gridGutter;
+			
+			&:first-child {
+				margin-left: 0;
+			}
+		 }
+    }
+	
+	.span(@numberOfColumns) {
+		width: (@GridColWidth * @numberOfColumns);
+	}
+
+	.spanX(@numberOfColumns) when (@numberOfColumns > 0) {
+		(~".span@{numberOfColumns}") {
+			.span(@numberOfColumns);
+		}
+		
+		.spanX(@numberOfColumns - 1);
+	}
+	
+	.spanX(0) {}

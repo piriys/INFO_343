@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>CSS3</title>
+		<style type="text/css">
+			@font-face {
+				font-family: chunkfive;
+				src: url('./fonts/Chunkfive.otf');
+			}
+			
+			.foo {
+				border: 1px solid blue;
+				padding: 1em;
+				border-radius: 10px;
+				background: white;
+				box-shadow: 1px 1px 2px #999;
+				font-family: chunkfive, sans-serif;
+				font-size: 3em;
+				opacity: 0.5; /* .foo will be 50% transparent */
+			}
+			
+			p {
+				text-shadow: 1px 1px 2px #999;
+				font-size: 2em;
+				color: rgba(0, 0, 0, 0.75); /* black at 75% opacity */
+			}
+			
+			html {
+				height: 100%;
+				background:
+				url(./img/hills.png) repeat-x bottom center;	
+			}
+			
+			body {
+			}
+			
+			a.bar {
+				text-decoration: none;
+				border-radius: 10px;
+            	padding: .5em;
+            	
+            	background: #9c3;
+            	
+            	
+            	-webkit-transition-property: background; 
+            	-webkit-transition-duration: 1s; 
+            	-webkit-transition-timing-function: ease;
+            	-webkit-transition-delay: 0.5s;
+            	
+            	/*
+            	-webkit-transition-property: all 1s ease 0.5s;
+            	-moz-transition: all 0.3s ease 0.5s; 
+            	-o-transition: all 0.3s ease 0.5s; 
+            	transition: all 0.3s ease 0.5s;
+            	*/
+            	
+            }
+            
+            a.bar:hover, a.bar:focus {
+            	background: red;
+            	color: white;
+            }
+		</style>
+	</head>
+	<body>
+		<h1 class="foo">
+			CSS3 is awesome! <a class="bar" href="http://www.w3.org/TR/css3-transitions/#properties-from-css-">Gnarly!</a>
+		</h1>
+		<p>Now that list is far from exhaustive, of course. CSS3 contains many more properties and tools, many of which are still be- ing developed and are not yet implemented in any browser. But you’ll notice that each property in the previous list has a reached a certain threshold of browser support: it works in at least two of the major browsers.</p>
+		<p>Images are courtesy of <a href="http://www.netmagazine.com/tutorials/get-grips-css3-multiple-background-images">.net Magazine.com</a></p>
+	</body>
+</html>

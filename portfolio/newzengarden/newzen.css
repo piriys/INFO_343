@@ -1,0 +1,211 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../font/segoeuil.ttf');
+}
+
+@font-face {
+	font-family: "Neou Thin";
+	src: url('../../font/Neou-Thin.ttf');
+}
+
+@font-face {
+	font-family: "Neou Bold";
+	src: url('../../font/Neou-Bold.ttf');
+}
+/*********************************/
+html {
+	color: white;
+	background: url('../img/shadow.png') no-repeat center center fixed,
+	url('../img/foreground.png') no-repeat center center fixed,
+	url('./img/newzenbackground.png') no-repeat center center fixed; 
+	background-color: #28292b;
+
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Segoe Light", sans-serif;
+}
+
+p, a {
+	font-family: "Segoe UI", sans-serif;
+}
+
+p {
+	padding: 10px 30px 10px 30px;
+	font-size: 1.1em;
+	text-align: justify;
+}
+
+.p1:first-letter {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 4em;
+	text-transform: uppercase;
+	
+}
+
+h2 {
+	font-size: 2.5em;
+	color: white;
+} 
+h3 {
+	font-size: 2em;
+}
+#pageHeader h1 {
+	font-family: "Neou Thin", "Segoe Light", sans-serif;
+	font-size: 6em;
+}
+#pageHeader h2 {
+	font-family: "Neou Bold", "Segoe Light", sans-serif;
+	padding-left: 1em;
+}
+a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+#quickSummary a {
+	color: #91d100;
+}
+/*
+Layouts
+*/
+#container {
+	width: 920px;
+	margin: 20px auto 0px auto;
+} 
+
+#intro{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+#quickSummary {
+	margin-bottom: 20px;
+}
+#quickSummary p {
+	font-size: 1.4em;
+	font-style: italic;
+}
+#supportingText > div, #preamble{
+	color: #2572eb;
+	height: 35px;
+	width: 100%;
+	overflow-y: scroll;
+	background-color: rgba(41,41,42, 0.8);
+}
+#explanation, #participation, #benefits, 
+#requirements, #preamble {
+	background-image: url('./img/arrowdown.png');
+	background-repeat: no-repeat; 
+	background-position: right top;
+	
+	border-right: 5px solid #2572eb;
+}
+#explanation:hover, #participation:hover, #preamble:hover {
+	height: 300px;
+}
+#explanation:hover, #participation:hover, #benefits:hover , 
+#requirements:hover, #preamble:hover {
+	background: #2572eb url('./img/arrowleft.png') no-repeat right top;
+	border-color: white;
+	color: white;
+}
+#benefits:hover {
+	height: 150px;
+}
+#requirements:hover {
+	height: 440px;
+}
+#footer a {
+	text-align: center;
+	font-size: 2em;
+	color: #78ba00;	
+	
+}
+a {
+	-webkit-transition: all 0.8s ease-out;	
+	-moz-transition: all 0.8s ease-out;	
+	-o-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;		
+}
+a:hover {
+	opacity: 0.5;
+}
+#footer {
+	background-image: url('./img/heartcircle.png');
+	background-position: right top;	
+	background-repeat: no-repeat;
+	border-right: 5px solid #78ba00;
+	-webkit-transition: all 0.8s ease-out;	
+	-moz-transition: all 0.8s ease-out;	
+	-o-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;	
+}
+#footer:hover {
+
+}
+/*
+Links
+*/
+#linkList2 > div, #supportingText > div, #preamble{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	overflow: hidden;
+	
+	float: left;
+	
+	-webkit-transition: all 0.8s ease-out;	
+	-moz-transition: all 0.8s ease-out;	
+	-o-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;		
+}
+#linkList2 > div {
+	color: #e66d1a;
+	background: rgba(41,41,42, 0.8) url('./img/arrowright.png') no-repeat right bottom;
+	width: 35px;
+	border-bottom: 5px solid #e66d1a;
+}
+#linkList2 ul {
+	margin-left: 45px;	
+}
+#linkList2 h3 {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+	display: block;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+}
+#linkList2 > div {
+	height: 300px;
+}
+#linkList2 > div:hover {
+	color: white;
+	background: #e66d1a url('./img/arrowleft.png') no-repeat right bottom;
+	width: 400px;
+	border-color: white;
+}
+#linklist, #linklist2 {
+	overflow: hidden;
+}

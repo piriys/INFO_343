@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../../font/segoeuil.ttf');
+}
+
+@font-face {
+	font-family: "Komika";
+	src: url('../../../font/komikax.ttf');
+}
+
+/*Global Inlines*/
+h1, h2, h3 {
+	font-weight: lighter;
+	font-family: "Segoe Light", sans-serif;
+}
+
+header hgroup {
+	height: 100%;
+	float: left;
+}
+
+header h1 {
+	font-size: 4em;
+	line-height: 100%;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	font-size: 1.5em;
+	line-height: 50%;
+	color: #f79608;
+}
+
+a {
+	-webkit-transition: all 1.0s ease-out;	
+	-moz-transition: all 1.0s ease-out;	
+	-o-transition: all 1.0s ease-out;
+	-ms-transition: all 1.0s ease-out;
+	transition: all 1.0s ease-out;	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+a:hover {
+	opacity:0.5;
+}
+
+/*body*/
+body {
+	color: white;
+	font-family: "Segoe UI", sans-serif;
+	background: url('../../../img/foreground.png') no-repeat center center fixed,
+	url('../../../img/background.png') no-repeat center center fixed; 
+	
+	background-color: #28292b;
+	background-size: cover;		
+}
+
+/*Content Wrapper*/
+#content{
+	width: 650px;
+	margin: 20px auto auto auto;
+}
+
+#results {
+	width: 650px;
+	margin-right: 10px;
+	float: left;
+	height: 650px;
+	
+	-webkit-transition: all 1.0s ease-out;	
+	-moz-transition: all 1.0s ease-out;	
+	-o-transition: all 1.0s ease-out;
+	-ms-transition: all 1.0s ease-out;
+	transition: all 1.0s ease-out;	
+}
+
+#results.state-inactive { 
+	visibility: hidden;
+}
+
+#results.state-active {
+	visibility: visible;
+}
+
+#fonthack {
+	visibility: hidden; 
+	position: fixed; 
+	width: 0; 
+	height: 0; 
+	font-family: 'Komika';
+}

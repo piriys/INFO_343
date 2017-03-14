@@ -1,0 +1,137 @@
+.button {
+	height: 90px;
+	width: 90px;
+	padding: 5px;
+	font-size: 0.8em;
+	margin: 0 10px 10px 0;
+	position: relative;
+	float: left;
+	color: white;
+	background-size: auto 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #1eadfe;
+	
+	-webkit-transform: scale(1.0);
+	-webkit-transition: all 0.5s ease-in;
+	
+	-moz-transform: scale(1.0);
+	-moz-transition: all 0.5s ease-in;
+	
+	-o-transform: scale(1.0);
+	-o-transition: all 0.5s ease-in;
+	
+	-ms-transform: scale(1.0);
+	-ms-transition: all 0.5s ease-in;	
+	
+	transform: scale(1.0);
+	transition: all 0.5s ease-in;
+} 
+
+.button.last {
+	margin-right: 0;
+}
+
+.button.bottom {
+	margin-bottom: 0;
+}
+
+.button.double {
+	margin-right: 0;
+	width: 200px;
+}
+
+.button span {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	text-align: right;
+}
+
+.button:hover, .themebutton:hover, #result1:hover {
+	opacity:0.8;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+#twitter {
+	background-color: #1eadfe;
+	background-image: url('../img/twitter.png');
+}
+
+#gmap {
+	background-color: #af1d00;
+	background-image: url('../img/googlemap.png');
+}
+
+#wiki {
+	background-color: #91d100;
+	background-image: url('../img/wiki.png');
+}
+#facebook {
+	background-color: #3b5998;
+	background-image: url('../img/facebook.png');
+}
+
+.twitter-active {
+	background-color: #1eadfe;
+	width: 410px;
+	min-height: 410px;
+	padding: 10px;	
+	
+	background-image: url('../img/twitter_bg.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;		
+}
+
+.gmap-active {
+	background-color: #af1d00;
+	width: 430px;
+	height: 430px;
+	
+	background-image: url('../img/googlemap_bg.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;		
+}
+
+.wiki-active {
+	background-color: #91d100;
+	width: 410px;
+	min-height: 410px;
+	padding: 10px;	
+
+	background-image: url('../img/wiki_bg.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;	
+}
+
+.facebook-active {
+	background-color: #3b5998;
+	width: 410px;
+	min-height: 410px;
+	padding: 10px;	
+	
+	background-image: url('../img/facebook_bg.png');
+	background-position: right bottom;
+	background-repeat: no-repeat;		
+}
+
+.gmap-text {
+	color: #af1d00;
+}
+
+.twitter-text {
+	color: #1eadfe;
+}
+
+.wiki-text {
+	color: #91d100;
+}
+
+.facebook-text {
+	color: #3b5998;
+}
+

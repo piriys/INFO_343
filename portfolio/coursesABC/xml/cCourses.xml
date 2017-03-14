@@ -1,0 +1,473 @@
+<?xml version="1.0" standalone="yes"?>
+<curricula>
+<curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/C%20E</uri>
+  <name>C E</name>
+  <fullname>CIVIL ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/C%20LIT</uri>
+  <name>C LIT</name>
+  <fullname>COMPARATIVE LITERATURE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>C LIT</department>
+  <department-fullname>COMPARATIVE LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/C%20MED</uri>
+  <name>C MED</name>
+  <fullname>COMPARATIVE MEDICINE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>C MED</department>
+  <department-fullname>COMPARATIVE MEDICINE</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/C%20PHYS</uri>
+  <name>C PHYS</name>
+  <fullname>COMPARATIVE PHYSIOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>INDGP</department>
+  <department-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</department-fullname>
+  <college>INDGP</college>
+  <college-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/C%20SCI</uri>
+  <name>C SCI</name>
+  <fullname>COMPUTER SCIENCE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>C SCI</department>
+  <department-fullname>COMPUTER SCIENCE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CATA</uri>
+  <name>CATA</name>
+  <fullname>CATALAN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ROMAN</department>
+  <department-fullname>ROMANCE LANGUAGES &amp; LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CAUP</uri>
+  <name>CAUP</name>
+  <fullname>COLLEGE OF ARCHITECTURE &amp; URBAN PLANNING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CAUP</department>
+  <department-fullname>ARCHITECTURE &amp; URBAN PLANNING</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CCS</uri>
+  <name>CCS</name>
+  <fullname>CENTER FOR CAREER SERVICES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CCS</department>
+  <department-fullname>CENTER FOR CAREER SERVICES</department-fullname>
+  <college>INDUG</college>
+  <college-fullname>UNDERGRADUATE INTERDISCIPLINARY PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CEE</uri>
+  <name>CEE</name>
+  <fullname>CIVIL &amp; ENVIRONMENTAL ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CEEM</uri>
+  <name>CEEM</name>
+  <fullname>ENGINEERING MECHANICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>MS E</department>
+  <department-fullname>MATERIALS SCIENCE &amp; ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CEP</uri>
+  <name>CEP</name>
+  <fullname>COMMUNITY AND ENVIRONMENTAL PLANNING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>URBDP</department>
+  <department-fullname>URBAN DESIGN AND PLANNING</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CEP</uri>
+  <name>CEP</name>
+  <fullname>COMMUNITY, ENVIRONMENT, AND PLANNING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>URBDP</department>
+  <department-fullname>URBAN DESIGN AND PLANNING</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CER%20E</uri>
+  <name>CER E</name>
+  <fullname>CERAMIC ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>MS E</department>
+  <department-fullname>MATERIALS SCIENCE &amp; ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CESM</uri>
+  <name>CESM</name>
+  <fullname>STRUCTURAL &amp; GEOTECHNICAL ENGR &amp; MECH</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CETC</uri>
+  <name>CETC</name>
+  <fullname>TRANSPORTATION, CONST &amp; GEOTECHNICAL ENG</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CETS</uri>
+  <name>CETS</name>
+  <fullname>TRANSPORTATION SURVEYING &amp; CONST ENGR</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CEWA</uri>
+  <name>CEWA</name>
+  <fullname>ENVIRONMENTAL ENGINEERING &amp; SCIENCE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CFR</uri>
+  <name>CFR</name>
+  <fullname>COLLEGE OF FOREST RESOURCES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CFR</department>
+  <department-fullname>COLLEGE OF FOREST RESOURCES</department-fullname>
+  <college>FOR</college>
+  <college-fullname>COLLEGE OF FOREST RESOURCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CH%20E</uri>
+  <name>CH E</name>
+  <fullname>CHEMICAL ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CHEM E</department>
+  <department-fullname>CHEMICAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHCS</uri>
+  <name>CHCS</name>
+  <fullname>COMMUNITY HEALTH CARE SYSTEMS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>NURS</department>
+  <department-fullname>NURSING</department-fullname>
+  <college>NURS</college>
+  <college-fullname>SCHOOL OF NURSING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHEM</uri>
+  <name>CHEM</name>
+  <fullname>CHEMISTRY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CHEM</department>
+  <department-fullname>CHEMISTRY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHEM%20E</uri>
+  <name>CHEM E</name>
+  <fullname>CHEMICAL ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CHEM E</department>
+  <department-fullname>CHEMICAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHID</uri>
+  <name>CHID</name>
+  <fullname>COMPARATIVE HISTORY OF IDEAS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CHID</department>
+  <department-fullname>COMPARATIVE HISTORY OF IDEAS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHIN</uri>
+  <name>CHIN</name>
+  <fullname>CHINESE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASIAN</department>
+  <department-fullname>ASIAN LANGUAGES &amp; LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CHSTU</uri>
+  <name>CHSTU</name>
+  <fullname>CHICANO STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AES</department>
+  <department-fullname>AMERICAN ETHNIC STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CINE</uri>
+  <name>CINE</name>
+  <fullname>CINEMA</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>DRAMA</department>
+  <department-fullname>DRAMA</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CIV%20E</uri>
+  <name>CIV E</name>
+  <fullname>CIVIL ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CIVE</uri>
+  <name>CIVE</name>
+  <fullname>CIVIL ENGINEERING CORE COURSES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CIV E</department>
+  <department-fullname>CIVIL AND ENVIRONMENTAL ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CL%20AR</uri>
+  <name>CL AR</name>
+  <fullname>CLASSICAL ARCHAEOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CLAS</department>
+  <department-fullname>CLASSICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CL%20DI</uri>
+  <name>CL DI</name>
+  <fullname>NUTR SCI &amp; TEXT OR CL DIETETICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>H EC</department>
+  <department-fullname>NUTR SCI &amp; TEXT OR CL DIETETICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CL%20LI</uri>
+  <name>CL LI</name>
+  <fullname>CLASSICAL LINGUISTICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CLAS</department>
+  <department-fullname>CLASSICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CLAS</uri>
+  <name>CLAS</name>
+  <fullname>CLASSICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CLAS</department>
+  <department-fullname>CLASSICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CM</uri>
+  <name>CM</name>
+  <fullname>CONSTRUCTION MANAGEMENT</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CM</department>
+  <department-fullname>CONSTRUCTION MANAGEMENT</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CMU</uri>
+  <name>CMU</name>
+  <fullname>COMMUNICATIONS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CMU</department>
+  <department-fullname>COMMUNICATIONS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CNSR</uri>
+  <name>CNSR</name>
+  <fullname>CONSORTIUM</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>INTCOL</department>
+  <department-fullname>INTERSCHOOL OR INTERCOLLEGE PROGRAMS</department-fullname>
+  <college>INTCOL</college>
+  <college-fullname>INTERSCHOOL OR INTERCOLLEGE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/COM</uri>
+  <name>COM</name>
+  <fullname>COMMUNICATION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>COM</department>
+  <department-fullname>COMMUNICATION</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/COM%20D</uri>
+  <name>COM D</name>
+  <fullname>COMMUNITY DENTISTRY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>DENT</department>
+  <department-fullname>DENTISTRY</department-fullname>
+  <college>DENT</college>
+  <college-fullname>SCHOOL OF DENTISTRY</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/COMP</uri>
+  <name>COMP</name>
+  <fullname>COMPOSITION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ENGL</department>
+  <department-fullname>ENGLISH</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CONJ</uri>
+  <name>CONJ</name>
+  <fullname>CONJOINT (MEDICINE)</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>MED</department>
+  <department-fullname>SCHOOL OF MEDICINE</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/COPTC</uri>
+  <name>COPTC</name>
+  <fullname>COPTIC</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>NEAR E</department>
+  <department-fullname>NEAR EASTERN LANGUAGES &amp; CIVILIZATION</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CR%20SB</uri>
+  <name>CR SB</name>
+  <fullname>CROATIAN-SERBIAN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>SLAVIC</department>
+  <department-fullname>SLAVIC LANGUAGES &amp; LITERATURES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CS%26SS</uri>
+  <name>CS&amp;SS</name>
+  <fullname>CENTER FOR STATISTICS &amp; THE SOCIAL SCI</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CS&amp;SS</department>
+  <department-fullname>CENTER FOR STATISTICS &amp; THE SOCIAL SCI</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CSDE</uri>
+  <name>CSDE</name>
+  <fullname>Ctr for Stdies in Demography and Ecology</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CSDE</department>
+  <department-fullname>Ctr for Stdies in Demography and Ecology</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CSE</uri>
+  <name>CSE</name>
+  <fullname>COMPUTER SCIENCE &amp; ENGINEERING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CSE</department>
+  <department-fullname>COMPUTER SCIENCE &amp; ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CSE%20M</uri>
+  <name>CSE M</name>
+  <fullname>COMP SCI &amp; ENGR ACCELERATED MASTERS PRG</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CSE</department>
+  <department-fullname>COMPUTER SCIENCE &amp; ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CSE%20P</uri>
+  <name>CSE P</name>
+  <fullname>COMP SCI &amp; ENGR PROFESSIONAL MASTERS PRG</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>CSE</department>
+  <department-fullname>COMPUTER SCIENCE &amp; ENGINEERING</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/CZECH</uri>
+  <name>CZECH</name>
+  <fullname>CZECH</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>SLAVIC</department>
+  <department-fullname>SLAVIC LANGUAGES &amp; LITERATURES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ </curricula>

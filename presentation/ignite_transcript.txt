@@ -1,0 +1,62 @@
+Piriya Saengsuwarn INFO 343 Summer A-Term
+Boosting Privacy Online: Anonymous Credentials in the Browser
+Ignite Presentation Transcript 
+=======================================================================================
+*Please note this is only the outline, actual presentation might be slightly different*
+=======================================================================================
+
+*Intro 0:00 (15 seconds)
+Hi everyone. My name is Piriya. And today I will be talking about anonymous credentials in the web browser, or AC. Has anyone here ever do shopping online? Yes? No? Great!
+
+*Scenario 0:15 (15 seconds)
+So let's talk about a wine shopping scenario. I want to buy alcohol online, what would I give to the store? Of course: my card number, my age verification, my address, my name and some other stuff. 
+
+*What if? 0:30 (15 seconds)
+What if I want to also buy from another store? That will be a lot of information stored online if I go to, say, 10 stores. Some website might provide encrypted protocol for that. But that just leads to more security, not privacy.
+
+*David Chaum 0:45 (15 seconds)
+Meet this guy, David Chaum (*Chom*). In 1985, he introduced the idea of anonymous credential in a published article called "Security Without Identity". And here are some characteristics he introduced in that article. 
+
+*What is this? 1:00 (15 seconds)
+Supposedly your credential is represented by a picture. Can you still tell from just a part of this picture that this is a picture of a cat?
+
+*Selective attribute showing 1:15 (15 seconds)
+Of course. This is what we called "selective attribute showing" in AC system. The cat can choose to show only the part of its face to verify that it is a cat while hiding other attributes. Mind you, cats need privacy too.
+
+*Zero-Knowledge Proof 1:30 (15 seconds)
+Another characteristic of AC is zero-knowledge proof. It is the idea of verifying that a certain statement is true without revealing any extra information. There are a lot of math involve in that, so I am not going to talk about it.
+
+*Scenario Communication Model 1:45 (15 seconds)
+Let's go back to our online wine-shop scenario. We can catagorize people in the scenario into 3 different roles: User(which is the customer), Verifier(which is the store), and Issuer(which is the government). 
+
+*Traditional Model 2:00 (30 seconds) - 2 slides
+In this traditional model, I will submit credentials for the store to process. The store will pass attributes in my credential to different issuers. 
+
+In this case, the store will send my name and my birthdate to the government to get my age certificate. Then use my credit card number to process the payment. The disadvatage of this is the store knows all of my personal information.
+
+*Anonymous Credential Model 2:30 (30 seconds) - 2 slides
+Here is the system implemented with AC. Instead of sending the store all of my attributes directly, I log into the "pseudonym system". Then I select the credentials only required to guarantee success delivery. 
+
+We can see here that instead of sending my real birthdate, the government verified my age and send the attribute that I'm old enough to drink to the store. With AC system, I reduced the credential disclosed from 5 to only 1. The store knows only about my address. 
+
+*Identity Mixer 3:00 (15 seconds)
+Identity Mixer, or IDEmix, is a Java library developed by IBM research in Zurich that implements the characteristics of AC system. Here is a screenshot of a prototype concept. 
+
+*PrimeCore 3:15 (15 seconds)
+PrimeCore is a collaboration between Prime, or PRivacy and Identity Management for Europe, and W3C. PrimeCore is an implementation of the IDEMix library for the web. It has 2 components: client, which is a firefox plugin, and server.
+
+*How PrimeCore works 3:30 (30 seconds) - 2 slides
+So here is how PrimeCore works: when I enter a PrimeCore enabled webpage, the traffic is redirected by client to encrypted proxy to request webpage from the server. 
+
+The server then responds and send back web page information to the client. If any credential disclosure is needed, a dialog will appears with a prompt to select which attribute should I reveal.
+
+*Voting 4:00 (15 seconds)
+So here is some future uses that I think could be implemented with AC system. First: anonymous voting. If we want to vote in a certain state, we only have to prove that we live in that state, right? AC system can proves that a person is allowed to vote in Washington without disclosing their name or address.
+
+*Age-restricted Services 4:15 (15 seconds)
+Under age children can easily input false birth date to view and buy age-restricted video game content.  Not only AC will protect user's personal data, but also it will prevent inappropriate users from accessing it as well. 
+
+*Why should we care? 4:30 (30 seconds) - 2 slides
+W3C involvement in the Prime project and P3P(Platform for Privacy Preferences) shows that they cares about internet users' privacy. In the future, we might see privacy policies as a new web standard similar to HTML5, CSS3, and WAVE. 
+
+With anonymous credential system, the web can take another step towards being a community that values the privacy of its users. So that concludes my presentation, thank you.

@@ -1,0 +1,266 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../font/segoeuil.ttf');
+}
+
+/*Global Inlines*/
+h1, h2, h3 {
+	font-weight: lighter;
+	font-family: "Segoe Light", "Segoe UI", sans-serif;
+}
+
+a {
+	-webkit-transition: all 1.0s ease-out;	
+	-moz-transition: all 1.0s ease-out;	
+	-o-transition: all 1.0s ease-out;
+	-ms-transition: all 1.0s ease-out;
+	transition: all 1.0s ease-out;	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+a:hover {
+	opacity:0.5;
+}
+
+/*body*/
+body {
+	color: white;
+	font-family: "Segoe UI", sans-serif;
+	background: url('../img/foreground.png') no-repeat center center fixed,
+	url('../img/background.png') no-repeat center center fixed; 
+	
+	background-color: #28292b;
+	
+	background-size: cover;
+	
+	-webkit-transition: background-color 0.8s ease-out;	
+	-moz-transition: background-color 0.8s ease-out;	
+	-o-transition: background-color 0.8s ease-out;
+	-ms-transition: background-color 0.8s ease-out;
+	transition: background-color 0.8s ease-out;		
+}
+
+/*Content Wrapper*/
+#content{
+	width: 1000px;
+	margin: 20px auto auto auto;
+}
+
+/*Header Layout*/
+header {
+	font-family: "Segoe Light", "Segoe UI", sans-serif;
+	height: 100px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+header hgroup {
+	height: 100%;
+	float: left;
+}
+
+header h1 {
+	font-size: 4em;
+	line-height: 100%;
+	margin-bottom: 10px;
+	text-transform: capitalize;
+}
+
+header h2 {
+	font-size: 1.5em;
+	line-height: 50%;
+	color: #f79608;
+}
+
+.outer {
+	height: 100%;
+	float: right;
+	display: table; 
+	position: static;
+}
+
+.middle {
+	display: table-cell; 
+	vertical-align: middle; 
+	width: 100%
+}
+
+.inner {
+	position: static;
+}
+
+#avatar {
+	float: left;
+	height: 100%;
+}
+
+#name {
+	float: left;
+	margin-right: 15px;
+}
+
+#name  p{
+	display: table-cell; 
+	vertical-align: middle; 	
+	line-height: 120%;
+	font-size: 1em;
+	text-align: right;
+}
+
+#name span {
+	font-size: 2.2em;
+}
+
+/*Navigation*/
+nav {
+	width: 210px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*Article*/
+
+article {
+	background-color: #8cbe21;
+	padding: 15px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+	width: 750px;
+	height: 730px;
+	
+	-webkit-transition: background-color 0.5s ease-in;
+	
+	-moz-transition: background-color 0.5s ease-in;
+	
+	-o-transition: background-color 0.5s ease-in;
+	
+	-ms-transition: background-color 0.5s ease-in;	
+	
+	transition: background-color 0.5s ease-in;
+}
+
+article h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+article h2 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+article dt {
+	font-size: 1.2em;
+}
+
+article dd, article li, article dt {
+	margin-bottom: 0.5em;
+}
+
+article img {
+	float: left;
+	position: relative;
+	height: 100px;
+	border: 2px white solid;
+	margin: 0px 10px;
+	
+	-webkit-transition: all 0.8s ease-out;	
+	-moz-transition: all 0.8s ease-out;	
+	-o-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;	
+}
+
+article img:hover {
+	height: 500px;
+	
+	-webkit-transform: translate(0px, -300px);
+
+	-moz-transform: translate(0px, -300px);
+
+	-o-transform: translate(0px, -300px);
+
+	-ms-transform: translate(0px, -300px);
+	
+	transform: translate(0px, -300px);
+}
+
+article p, article ul, article dd, article dl{
+	list-style: none;
+	padding-left: 40px; 
+}
+
+#notfoundbody {
+	background: url('../img/foreground.png') no-repeat center center fixed,
+	url('../img/background.png') no-repeat center center fixed; 
+	
+	background-color: #8cbe21;
+	padding: 0px;
+
+	background-size: cover;
+}
+
+
+div#notfoundwrapper{
+	width: 650px;
+	margin: auto;
+}
+
+article#notfoundarticle{
+	background-color: transparent;
+	width: 100%;
+	padding: 0px;
+}
+article#notfoundarticle div#ajaxcontent {
+	text-align: center;
+}
+div#ajaxcontent.notfoundcontent {
+	width: 100%;
+}
+
+article#notfound p{
+	padding-left: 0px;
+}
+
+
+article a {
+	text-transform: uppercase;
+}
+
+
+/*Theme Selector*/
+#themeselector {
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+}
+
+.last {
+	margin-right: 0;
+}
+
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	background: rgba(198,198,200,0.5);  
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(198,198,200,0.5);  
+}

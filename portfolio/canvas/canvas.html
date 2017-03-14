@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>		
+		<script type="text/javascript" src="./js/canvas.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/canvas.css" />
+		<link rel="stylesheet" type="text/css" href="./css/button.css" />
+		<link rel="shortcut icon" href="../../img/favicon.ico">	
+		<meta charset="utf-8" />
+		<title>Canvas</title>		
+	</head>
+	<body>
+		<section id="content">
+			<header>
+				<h1>Canvas</h1>
+				<h2 id="prompt">Click on a button to start drawing</h2>
+			</header>
+			<nav>
+				<a href="#">
+					<div class="button theme state-inactive" id="draw1" onclick="draw1()">
+						<span>Pacman</span>
+					</div>
+				</a>	
+				<a href="#">
+					<div class="button theme state-inactive" id="draw2" onclick="draw2()">
+						<span>Awesome</span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="button theme state-inactive" id="draw3" onclick="draw3()">
+						<span>Disapproval</span>
+					</div>
+				</a>		
+				<a href="#">
+					<div class="button theme state-inactive" id="drawglasses" onclick="drawGlasses()">
+						<span>Piriya-fy it!</span>
+					</div>
+				</a>					
+				<a href="#">
+					<div class="button theme state-inactive" id="clear" onclick="clearCanvas()">
+						<span>Clear</span>
+					</div>
+				</a>					
+			</nav>
+			<article>
+				<canvas id="results" width="650" height="650" class="state-inactive"></canvas>
+			</article>
+			
+			<div id="fonthack"><span>.</span></div>
+		</section>
+	</body>
+</html>

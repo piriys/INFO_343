@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+	h1 { 
+		font-size:2em; 
+		color: blue;
+	}
+}
+@media screen and (min-width: 769px) {
+	h1 { 
+		font-size:4em;
+		color:red;
+	}
+}

@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <script type="application/x-javascript">
+    function draw() {
+	  var ctx = document.getElementById('canvas').getContext('2d');
+	
+	  // Create gradients
+	  var lingrad = ctx.createLinearGradient(0,0,0,200);
+	  lingrad.addColorStop(0, '#00ABEB');
+	  lingrad.addColorStop(1, '#fff');
+	  //lingrad.addColorStop(0.5, '#66CC00');
+	  //lingrad.addColorStop(1, '#fff');
+	
+	  //var lingrad2 = ctx.createLinearGradient(0,50,0,95);
+	  //lingrad2.addColorStop(0.5, '#000');
+	  //lingrad2.addColorStop(1, 'rgba(0,0,0,0)');
+	
+	  // assign gradients to fill and stroke styles
+	  ctx.fillStyle = lingrad;
+	  //ctx.strokeStyle = lingrad2;
+	  
+	  // draw shapes
+	  ctx.fillRect(10,10,800,200);
+	  //ctx.strokeRect(50,50,50,50);
+	
+	}
+  </script>
+ </head>
+ <body onload="draw();">
+   <canvas id="canvas" width="800" height="200">
+     <p>This example requires a browser that supports the
+     <a href="http://www.w3.org/html/wg/html5/">HTML5</a> 
+     &lt;canvas&gt; feature.</p>
+   </canvas>
+ </body>
+</html>

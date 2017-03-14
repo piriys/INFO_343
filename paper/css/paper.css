@@ -1,0 +1,88 @@
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../font/segoeuil.ttf');
+}
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../font/segoeui.ttf');
+}		
+			
+body {
+	font-family: "Segoe UI", sans-serif;			
+}
+			
+h1, h2, h3 {
+	font-family: "Segoe Light", "Segoe UI", sans-serif;
+	/*color: #1eadfe;*/
+}
+			
+nav {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height:100%;
+}
+			
+article {
+	margin-left: 120px;
+	padding: 20px;
+}
+		
+article h1 {
+	font-size: 2em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+
+article h2 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}	
+
+article header {
+	text-align: center;
+}
+
+div.figure {
+	width: 650px;
+	margin: auto;
+}
+
+.notation {
+	text-align: center;
+	font-style: italic;
+}
+
+div.imgwrapper {
+	width: 100%;
+}
+
+div.imgwrapper img {
+	width: 100%;
+	border: 2px solid #1eadfe;
+}
+
+.button {
+	height: 90px;
+	width: 90px;
+	padding: 5px;
+	font-size: 0.8em;
+	margin: 10px 10px 0 10px;
+	position: relative;
+	float: left;
+	color: white;
+	background-color: #1eadfe;
+} 
+
+.button span {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+}
+
+a:link {
+	color: #1eadfe;
+}

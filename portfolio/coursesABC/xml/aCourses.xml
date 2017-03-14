@@ -1,0 +1,343 @@
+<?xml version="1.0" standalone="yes"?>
+<curricula>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/A%20A</uri>
+  <name>A A</name>
+  <fullname>AERONAUTICS &amp; ASTRONAUTICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>A A</department>
+  <department-fullname>AERONAUTICS &amp; ASTRONAUTICS</department-fullname>
+  <college>ENGR</college>
+  <college-fullname>COLLEGE OF ENGINEERING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/A%20MTH</uri>
+  <name>A MTH</name>
+  <fullname>APPLIED MATHEMATICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>INDGP</department>
+  <department-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</department-fullname>
+  <college>INDGP</college>
+  <college-fullname>INTERDISCIPLINARY GRADUATE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/A%20ORG</uri>
+  <name>A ORG</name>
+  <fullname>ADMIN THEORY &amp; ORGANIZATION BEHAVIOR</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/A%20S</uri>
+  <name>A S</name>
+  <fullname>AEROSPACE STUDIES (AIR FORCE ROTC)</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>A S</department>
+  <department-fullname>AEROSPACE STUDIES</department-fullname>
+  <college>INTCOL</college>
+  <college-fullname>INTERSCHOOL OR INTERCOLLEGE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/A%26S</uri>
+  <name>A&amp;S</name>
+  <fullname>ARTS &amp; SCIENCES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>GEN ST</department>
+  <department-fullname>GENERAL STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AAS</uri>
+  <name>AAS</name>
+  <fullname>ASIAN-AMERICAN STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AES</department>
+  <department-fullname>AMERICAN ETHNIC STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ACADEM</uri>
+  <name>ACADEM</name>
+  <fullname>UNIVERSITY ACADEMY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>RCYS</department>
+  <department-fullname>ROBINSON CENTER FOR YOUNG SCHOLARS</department-fullname>
+  <college>INDUG</college>
+  <college-fullname>UNDERGRADUATE INTERDISCIPLINARY PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ACCTG</uri>
+  <name>ACCTG</name>
+  <fullname>ACCOUNTING</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ACCTG</department>
+  <department-fullname>ACCOUNTING</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ADMIN</uri>
+  <name>ADMIN</name>
+  <fullname>ADMINISTRATION</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>B A</department>
+  <department-fullname>BUSINESS ADMINISTRATION</department-fullname>
+  <college>B A</college>
+  <college-fullname>BUSINESS SCHOOL</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AES</uri>
+  <name>AES</name>
+  <fullname>AMERICAN ETHNIC STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AES</department>
+  <department-fullname>AMERICAN ETHNIC STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AFRAM</uri>
+  <name>AFRAM</name>
+  <fullname>AFRO-AMERICAN STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AES</department>
+  <department-fullname>AMERICAN ETHNIC STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AFSTU</uri>
+  <name>AFSTU</name>
+  <fullname>AFRICAN STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AFSTU</department>
+  <department-fullname>AFRICAN STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AIS</uri>
+  <name>AIS</name>
+  <fullname>AMERICAN INDIAN STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>GEN ST</department>
+  <department-fullname>GENERAL STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AIS</uri>
+  <name>AIS</name>
+  <fullname>AMERICAN INDIAN STUDIES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AIS</department>
+  <department-fullname>AMERICAN INDIAN STUDIES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AKKAD</uri>
+  <name>AKKAD</name>
+  <fullname>AKKADIAN</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>NEAR E</department>
+  <department-fullname>NEAR EASTERN LANGUAGES &amp; CIVILIZATION</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ALL%20CR</uri>
+  <name>ALL CR</name>
+  <fullname>ALL CREDIT</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>UW</department>
+  <department-fullname>UNIVERSITY OF WASHINGTON</department-fullname>
+  <college>INDUG</college>
+  <college-fullname>UNDERGRADUATE INTERDISCIPLINARY PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ALTAI</uri>
+  <name>ALTAI</name>
+  <fullname>ALTAIC</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASIAN</department>
+  <department-fullname>ASIAN LANGUAGES &amp; LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AMATH</uri>
+  <name>AMATH</name>
+  <fullname>APPLIED MATHEMATICS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AMATH</department>
+  <department-fullname>APPLIED MATHEMATICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/AMMAP</uri>
+  <name>AMMAP</name>
+  <fullname>ADV MATERIALS &amp; MANUFACTURING PROCESSES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>AMMAP</department>
+  <department-fullname>ADV MATR &amp; MANUFACTURING PROC</department-fullname>
+  <college>INTCOL</college>
+  <college-fullname>INTERSCHOOL OR INTERCOLLEGE PROGRAMS</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ANEST</uri>
+  <name>ANEST</name>
+  <fullname>ANESTHESIOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ANEST</department>
+  <department-fullname>ANESTHESIOLOGY</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ANMED</uri>
+  <name>ANMED</name>
+  <fullname>ANIMAL MEDICINE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>MED</department>
+  <department-fullname>SCHOOL OF MEDICINE</department-fullname>
+  <college>MED</college>
+  <college-fullname>SCHOOL OF MEDICINE</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ANTH</uri>
+  <name>ANTH</name>
+  <fullname>ANTHROPOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ANTH</department>
+  <department-fullname>ANTHROPOLOGY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ARAB</uri>
+  <name>ARAB</name>
+  <fullname>ARABIC</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>NEAR E</department>
+  <department-fullname>NEAR EASTERN LANGUAGES &amp; CIVILIZATION</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ARAMIC</uri>
+  <name>ARAMIC</name>
+  <fullname>ARAMIC</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>NEAR E</department>
+  <department-fullname>NEAR EASTERN LANGUAGES &amp; CIVILIZATION</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ARCH</uri>
+  <name>ARCH</name>
+  <fullname>ARCHITECTURE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ARCH</department>
+  <department-fullname>ARCHITECTURE</department-fullname>
+  <college>ARCH</college>
+  <college-fullname>ARCHITECTURE &amp; URBAN PLANNING</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ARCHY</uri>
+  <name>ARCHY</name>
+  <fullname>ARCHAEOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ANTH</department>
+  <department-fullname>ANTHROPOLOGY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ART</uri>
+  <name>ART</name>
+  <fullname>ART</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ART</department>
+  <department-fullname>ART</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ART%20H</uri>
+  <name>ART H</name>
+  <fullname>ART HISTORY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ART H</department>
+  <department-fullname>ART HISTORY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ARTS</uri>
+  <name>ARTS</name>
+  <fullname>SUMMER ARTS PROGRAMS</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ARTS</department>
+  <department-fullname>SUMMER ARTS PROGRAMS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ASIAN</uri>
+  <name>ASIAN</name>
+  <fullname>ASIAN LANGUAGES &amp; LITERATURE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASIAN</department>
+  <department-fullname>ASIAN LANGUAGES &amp; LITERATURE</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ASL</uri>
+  <name>ASL</name>
+  <fullname>AMERICAN SIGN LANGUAGE</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>LING</department>
+  <department-fullname>LINGUISTICS</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ASTBIO</uri>
+  <name>ASTBIO</name>
+  <fullname>ASTROBIOLOGY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASTBIO</department>
+  <department-fullname>ASTROBIOLOGY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ASTR</uri>
+  <name>ASTR</name>
+  <fullname>ASTRONOMY</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ASTR</department>
+  <department-fullname>ASTRONOMY</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ <curriculum>
+  <uri>http://webservices.washington.edu/courses/0.2/Seattle/ATM%20S</uri>
+  <name>ATM S</name>
+  <fullname>ATMOSPHERIC SCIENCES</fullname>
+  <campus-name>Seattle</campus-name>
+  <department>ATM S</department>
+  <department-fullname>ATMOSPHERIC SCIENCES</department-fullname>
+  <college>A &amp; S</college>
+  <college-fullname>COLLEGE OF ARTS &amp; SCIENCES</college-fullname>
+ </curriculum>
+ </curricula>

@@ -1,0 +1,107 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../../font/segoeuil.ttf');
+}
+
+/*Global Inlines*/
+h1, h2, h3 {
+	font-weight: lighter;
+	font-family: "Segoe Light", sans-serif;
+}
+
+header hgroup {
+	height: 100%;
+	float: left;
+}
+
+header h1 {
+	font-size: 4em;
+	line-height: 100%;
+	margin-bottom: 10px;
+}
+
+header h2 {
+	font-size: 1.5em;
+	line-height: 50%;
+	color: #f79608;
+}
+
+a {
+	-webkit-transition: all 1.0s ease-out;	
+	-moz-transition: all 1.0s ease-out;	
+	-o-transition: all 1.0s ease-out;
+	-ms-transition: all 1.0s ease-out;
+	transition: all 1.0s ease-out;	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+a:hover {
+	opacity:0.5;
+}
+
+/*body*/
+body {
+	color: white;
+	font-family: "Segoe UI", sans-serif;
+	background: url('../../../img/foreground.png') no-repeat center center fixed,
+	url('../../../img/background.png') no-repeat center center fixed; 
+	
+	background-color: #28292b;
+	background-size: cover;		
+}
+
+/*Content Wrapper*/
+#content{
+	width: 650px;
+	margin: 20px auto auto auto;
+}
+
+#results {
+	width: 300px;
+	height: 410px;
+	margin-right: 10px;
+	float: left;
+	padding: 10px;
+	visibility: hidden;
+}
+
+#result1 {
+	width: 320px;
+	height: 430px;
+	background-position: right;
+	background-size: auto 430px;
+	float: left;
+	font-size: 3em;
+	line-height: 100%;
+	color: white;
+	position: relative;
+	padding: 0px;
+	visibility: hidden;
+	
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;	
+}
+
+#result1 span {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	text-align: left;
+}
+
+.dawg {
+	visibility: hidden;
+}

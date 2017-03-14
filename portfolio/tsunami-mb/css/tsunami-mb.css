@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url('../../../font/segoeui.ttf');
+}
+
+@font-face {
+	font-family: "Segoe Light";
+	src: url('../../../font/segoeuil.ttf');
+}
+
+/***************************/
+
+html {
+	font-family: "Segoe UI", sans-serif;
+	background-color: black;
+	/*
+	background-color: #1b58b8;
+*/
+}
+
+h1, h2, h3, h4 {
+	font-family: "Segoe Light", sans serif;
+	font-weight: lighter;
+}
+
+a {
+	font-family: "Segoe UI", sans-serif;
+	font-weight: bold;
+	color: #1eadfe;
+}
+
+.content {
+	width: 870px;
+	height: 100%;
+	margin: auto;
+}
+.wrapper {
+	width: 100%;
+	/*background-color: #1b58b8;*/
+}
+#headerwrap {
+	height: 340px;
+	
+	background-image: url('../img/background.jpg');
+	background-size: cover;	
+}
+	#headerwrap.content {
+		background-image: url('../img/seamless_wave.png');
+	}
+	#topbar {
+		background-color: black;
+		height: 50px;
+	}
+
+		nav#menu {
+		float: right;
+		margin-bottom: 10px;
+		}
+		
+	#headernews {
+		float: right;
+		padding: 10px;
+		width: 408px;
+		height: 298px;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: white;
+		position: relative;
+		border-right: 2px solid #1eadfe;
+		border-bottom: 2px solid #1eadfe;
+	}
+		#headernews h1 {
+			font-size: 2.2em;
+		}
+		
+		#headernews p {
+			font-size: 1.4em;
+		}
+	#headerimg {
+		height: 320px;
+		width: 430px;
+		background-image: url('../img/tsunami320px_white.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		/*background-color: rgba(0, 0, 0, 0.5);*/
+		float: left;
+		overflow: hidden;
+	}
+		#headerimg img {
+			width: 100%;
+			height: 100%;
+		}
+
+	
+#middlewrap {
+	height: 870px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	background-image: url("../img/tsunami650px_blue.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+	#banner {
+		/*height: 190px;*/
+		width: 850px;
+		padding: 10px;
+		color: white;
+		background-color: #1eadfe;
+		float: left;
+		margin-bottom: 10px;
+		font-family: "Segoe Light", sans serif;
+	}
+		#banner h1 {
+			font-size: 3em;
+		}
+		
+		#banner p {
+			font-size: 2em;
+		}
+	article {
+		width: 188px;
+		height: 628px;
+		padding: 10px;
+		float: left;
+		margin-right: 10px;
+		position: relative;
+		border-right: 2px solid #1eadfe;
+		border-bottom: 2px solid #1eadfe;
+	}
+
+		article ul {
+			list-style-type: none;
+		}	
+		
+		article li h2{
+			font-size: 1.2em;
+		}
+		
+		h1 {
+			font-size: 1.4em;
+			margin-bottom: 0.5em;
+		}
+		
+		h2 {
+			margin-bottom: 0.6em;
+		}
+		
+		p {
+			margin-bottom: 0.8em;
+		}	
+#footerwrap {
+	height: 50px;
+	position: relative;
+	background-color: black;
+}
+
+#middle, footer, header {
+	width: 100%;
+	float: left;
+}
+	#navwrapper {
+		height: 50px;
+		width: 870px;
+		margin: auto;
+	}	
+.lastY {
+	margin-bottom: 0;
+}
+.lastX {
+	margin-right: 0;
+}
